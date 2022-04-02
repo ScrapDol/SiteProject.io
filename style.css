@@ -30,6 +30,7 @@ a
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__item
@@ -44,16 +45,21 @@ a:hover
     color: #16a4eb;
 }
 
+
 .headerlogo
 {
     font-weight: bold;
 }
 
+.News
+{
+    width: 1000px;
+}
+
 .content
 {
     width: 1000px;
-    margin-left: 300px;
-    margin-top: 50px;
+    margin: 0px auto;
 }
 
 .content__block
